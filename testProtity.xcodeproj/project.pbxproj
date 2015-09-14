@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		64FF3EA01BA669D50038956A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF3E9F1BA669D50038956A /* main.m */; };
+		64FF3EAA1BA674D50038956A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF3EA91BA674D50038956A /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		64FF3EB91BA67B370038956A /* Person_ten1.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FF3EB81BA67B370038956A /* Person_ten1.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		64FF3E9C1BA669D50038956A /* testProtity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testProtity; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FF3E9F1BA669D50038956A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64FF3EA81BA674D50038956A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		64FF3EA91BA674D50038956A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		64FF3EB71BA67AAE0038956A /* Person_ten1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person_ten1.h; sourceTree = "<group>"; };
+		64FF3EB81BA67B370038956A /* Person_ten1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person_ten1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				64FF3E9F1BA669D50038956A /* main.m */,
+				64FF3EA81BA674D50038956A /* Person.h */,
+				64FF3EA91BA674D50038956A /* Person.m */,
+				64FF3EB71BA67AAE0038956A /* Person_ten1.h */,
+				64FF3EB81BA67B370038956A /* Person_ten1.m */,
 			);
 			path = testProtity;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FF3EB91BA67B370038956A /* Person_ten1.m in Sources */,
+				64FF3EAA1BA674D50038956A /* Person.m in Sources */,
 				64FF3EA01BA669D50038956A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
