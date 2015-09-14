@@ -10,10 +10,6 @@
 
 @interface Person : NSObject
 
-@property (strong, nonatomic) NSString *name;
-
-- (void)des;
-
 @end
 
 

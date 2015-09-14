@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
+
+#import "Person+name.h"
+#import "Person_ten1.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -19,6 +21,8 @@ int main(int argc, const char * argv[]) {
         p.name = @"loseurp";
         [p des];
         
+        p.age = 19;
+        [p page];
     }
     return 0;
 }

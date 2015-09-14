@@ -1,5 +1,5 @@
 //
-//  Person.m
+//  Person+name.h
 //  testProtity
 //
 //  Created by csj on 15/9/14.
@@ -7,9 +7,15 @@
 //
 
 #import "Person.h"
-#import "Person_ten1.h"
-#import "Person+name.h"
 
-@implementation Person
+@interface Person ()
+
+@property (strong, nonatomic) NSString *name;
+
+@end
+
+@interface Person (name)
+
+- (void)des;
 
 @end

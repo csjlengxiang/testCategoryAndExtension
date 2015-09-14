@@ -11,8 +11,9 @@
 
 @implementation Person (ten1)
 
+
 - (void)page {
-    NSLog(@"%d", self.age);
+    NSLog(@"age: %d", self.age);
 }
 
 @end
